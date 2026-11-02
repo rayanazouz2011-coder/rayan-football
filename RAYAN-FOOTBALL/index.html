@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+ا<html lang="ar" dir="rtl" data-language="ar"></html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="الملف الرياضي والإحصائيات الخاصة باللاعب RAYAN">
+  <title>RAYAN FOOTBALL | اللاعب ريان</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <a class="logo" href="#">RAYAN<span>.</span></a>
+    <nav>
+  <a href="#home">الرئيسية</a>
+  <a href="#stats">الإحصائيات</a>
+  <a href="#career">المسيرة</a>
+  <a href="#about">عن اللاعب</a>
+  <button id="languageToggle" type="button">ENGLISH</button>
+</nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">OFFICIAL PLAYER PROFILE</p>
+        <h1>RAYAN</h1>
+        <h2>FOOTBALL PLAYER</h2>
+        <p class="hero-description">
+          جناح أيسر وصانع ألعاب — لاعب يسعى دائمًا للتطور وصناعة الفارق داخل الملعب.
+        </p>
+        <div class="player-tags">
+          <span>LW / CAM</span>
+          <span>رقم القميص 99</span>
+          <span>AL AMEYD</span>
+        </div>
+        <a class="main-button" href="#stats">اكتشف إحصائياتي</a>
+      </div>
+
+      <div class="hero-image">
+        <img src="images/profile.jpg" alt="صورة اللاعب ريان">
+        <div class="image-label">PLAYER NO. 99</div>
+      </div>
+    </section>
+
+    <section class="section" id="stats">
+      <div class="section-heading">
+        <p class="eyebrow">PERFORMANCE</p>
+        <h2>الإحصائيات <span>الشخصية</span></h2>
+      </div>
+
+      <div class="stats-grid">
+        <article class="stat-card">
+          <span>المباريات</span>
+          <strong id="matches">0</strong>
+        </article>
+        <article class="stat-card">
+          <span>الأهداف</span>
+          <strong id="goals">0</strong>
+        </article>
+        <article class="stat-card">
+          <span>التمريرات الحاسمة</span>
+          <strong id="assists">0</strong>
+        </article>
+        <article class="stat-card">
+          <span>دقائق اللعب</span>
+          <strong id="minutes">0</strong>
+        </article>
+        <article class="stat-card">
+          <span>المباريات الأساسية</span>
+          <strong id="starts">0</strong>
+        </article>
+        <article class="stat-card">
+          <span>البطاقات الصفراء</span>
+          <strong id="yellowCards">0</strong>
+        </article>
+      </div>
+      <div class="manual-stats">
+  <h3>تحديث الإحصائيات</h3>
+  <p>أدخل إجمالي أرقامك الحالية</p>
+
+  <div class="manual-stats-grid">
+    <label>المباريات
+      <input type="number" id="editMatches" min="0" value="3">
+    </label>
+
+    <label>الأهداف
+      <input type="number" id="editGoals" min="0" value="1">
+    </label>
+
+    <label>التمريرات الحاسمة
+      <input type="number" id="editAssists" min="0" value="1">
+    </label>
+
+    <label>دقائق اللعب
+      <input type="number" id="editMinutes" min="0" value="180">
+    </label>
+
+    <label>المباريات الأساسية
+      <input type="number" id="editStarts" min="0" value="0">
+    </label>
+
+    <label>البطاقات الصفراء
+      <input type="number" id="editYellowCards" min="0" value="0">
+    </label>
+  </div>
+
+  <button type="button" id="saveManualStats">حفظ الإحصائيات</button>
+  <p id="statsSaveMessage"></p>
+</div>
+      <p class="note">تبدأ الإحصائيات من الصفر، وتتحدث عند إضافة بيانات المباريات.</p>
+    </section>
+
+    <section class="section" id="career">
+      <div class="section-heading">
+        <p class="eyebrow">CAREER HISTORY</p>
+        <h2>المسيرة <span>الكروية</span></h2>
+      </div>
+
+      <div class="career-list">
+        <div class="career-item"><span>01</span><h3>نادي أبها</h3></div>
+        <div class="career-item"><span>02</span><h3>نادي بيراميدز</h3></div>
+        <div class="career-item"><span>03</span><h3>جينس فيمس</h3></div>
+        <div class="career-item current"><span>04</span><h3>نادي العميد</h3><small>النادي الحالي</small></div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">ABOUT THE PLAYER</p>
+        <h2>عن <span>اللاعب</span></h2>
+      </div>
+
+      <div class="about-card">
+        <p>
+          ريان لاعب كرة قدم يشغل مركز الجناح الأيسر وصانع الألعاب.
+          يحب المهارة واللعب الجماعي، ويهتم بالمراوغة والتحرك لخلق
+          المساحات وإتاحة الفرص لزملائه، إلى جانب المساهمة في تسجيل
+          الأهداف وصناعتها. يستطيع اللعب بكلتا القدمين، ويسعى باستمرار
+          إلى تطوير مستواه الفني وفهمه للعبة.
+        </p>
+        <div class="about-details">
+          <div><span>النادي</span><strong>AL AMEYD</strong></div>
+          <div><span>المركز</span><strong>LW / CAM</strong></div>
+          <div><span>القدم المفضلة</span><strong>كلتا القدمين</strong></div>
+          <div><span>رقم القميص</span><strong>99</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading">
+        <p class="eyebrow">MATCH HISTORY</p>
+        <h2>سجل <span>المباريات</span></h2>
+      </div>
+
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>التاريخ</th>
+              <th>المنافس</th>
+              <th>النتيجة</th>
+              <th>الأهداف</th>
+              <th>الصناعة</th>
+              <th>الدقائق</th>
+            </tr>
+          </thead>
+          <tbody id="matchTable">
+            <tr><td colspan="6">لا توجد مباريات مسجلة حتى الآن</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="add-match">
+        <h3>إضافة مباراة جديدة</h3>
+        <form id="matchForm">
+          <input type="date" id="date" required>
+          <input type="text" id="opponent" placeholder="اسم المنافس" required>
+          <input type="text" id="result" placeholder="النتيجة مثال 2-1" required>
+          <input type="number" id="matchGoals" placeholder="الأهداف" min="0" value="0" required>
+          <input type="number" id="matchAssists" placeholder="الصناعة" min="0" value="0" required>
+          <input type="number" id="matchMinutes" placeholder="دقائق اللعب" min="0" max="130" value="90" required>
+          <label class="starter-label">
+            <input type="checkbox" id="isStarter">
+            شاركت أساسيًا
+          </label>
+          <button type="submit">إضافة المباراة</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- PHOTO GALLERY -->
+  <section class="section gallery-section" id="gallery">
+    <div class="section-heading">
+      <h2>معرض <span>الصور</span></h2>
+      <p>لحظات من مسيرتي الكروية</p>
+    </div>
+
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="images/player-1.jpg" alt="صورة ريان">
+        <p>صورة شخصية</p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <h2>RAYAN<span>.</span></h2>
+    <p>OFFICIAL FOOTBALL PLAYER PROFILE</p>
+    <small>© 2026 RAYAN FOOTBALL. جميع الحقوق محفوظة.</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>/* PHOTO GALLERY */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 22px;
+  margin-top: 30px;
+}
+
+.gallery-item {
+  overflow: hidden;
+  border: 1px solid rgba(37, 229, 138, 0.25);
+  border-radius: 18px;
+  background: #101915;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  display: block;
+}
+
+.gallery-item p {
+  padding: 14px;
+  margin: 0;
+  color: #25e58a;
+  text-align: center;
+}
